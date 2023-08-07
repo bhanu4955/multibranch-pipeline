@@ -22,7 +22,13 @@ pipeline {
          }
 
      }
-  
+
+     stage("Test Aplication") { 
+         steps { 
+           echo "Multipiipeline -----application..."
+         }
+
+     }
    	}
 
    }
