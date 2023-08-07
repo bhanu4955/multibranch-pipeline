@@ -18,7 +18,7 @@ pipeline {
 
          stage("Deploy application") { 
          steps { 
-           echo "deploying application..."
+           echo "TESTING POLL SCM BUILD TRIGEERING METHOD"
          }
 
      }
